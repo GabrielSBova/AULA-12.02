@@ -113,9 +113,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(913, 458);
+            this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridFornecedor);
-            this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label2);

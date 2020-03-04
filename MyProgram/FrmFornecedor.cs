@@ -36,7 +36,7 @@ namespace MyProgram
             lista.Add(fornecedor);
             dataGridFornecedor.DataSource = null;
             dataGridFornecedor.DataSource = lista;
-            //Limpar a tela
+            //Ação para Limpar a tela
             foreach (var item in this.Controls)
             {
                 if (item is TextBox)
